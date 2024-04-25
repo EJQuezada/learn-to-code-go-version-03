@@ -14,16 +14,13 @@ func main() {
 
 	var m float32 = 43.742
 	fmt.Printf("%v of type %T \n", m, m)
-
 	/*
 		// this does not work!
 		z = m
 		fmt.Printf("%v of type %T \n", z, z)
 	*/
 
-	/*
-		// this does work
-		z = float64(m)
-		fmt.Printf("%v of type %T \n", z, z)
-	*/
+	// this does work
+	z = float64(m)
+	fmt.Printf("%v of type %T \n", z, z)
 }

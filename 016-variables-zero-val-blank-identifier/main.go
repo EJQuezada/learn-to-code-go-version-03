@@ -16,14 +16,14 @@ func main() {
 	*/
 
 	// this does work
-		var g int
-		fmt.Println(g)
-		g = 43
-		fmt.Println(g)
+	var g int
+	fmt.Println(g)
+	g = 43
+	fmt.Println(g)
 
-		// DECLARE a variable to hold a VALUE of a certain TYPE
-		// then ASSIGN a VALUE of that TYPE to the variable
-		// initializing a variable
-		var h int = 44
-		fmt.Println(h)
+	// DECLARE a variable to hold a VALUE of a certain TYPE
+	// then ASSIGN a VALUE of that TYPE to the variable
+	// initializing a variable
+	var h int = 44
+	fmt.Println(h)
 }

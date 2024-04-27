@@ -24,7 +24,7 @@ func main() {
 		fmt.Println("should print")
 	}
 
-	favSport := "surfing"
+	favSport := "swimming"
 	switch favSport {
 	case "skiing":
 		fmt.Println("go to the mountains!")

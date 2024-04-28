@@ -11,3 +11,5 @@ func main() {
 		fmt.Printf("%v - %v\n", i, v)
 	}
 }
+
+//run code to see output

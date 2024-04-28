@@ -18,7 +18,7 @@ func main() {
 	fmt.Println(xs[2])
 
 	// doesn't work
-	// fmt.Println(xs[3])
+	// fmt.Println(xs[3]) because no item in position 3 to run the code
 
 	fmt.Println(len(xs))
 

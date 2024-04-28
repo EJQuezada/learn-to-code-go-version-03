@@ -20,8 +20,8 @@ func main() {
 
 /*
 Using a COMPOSITE LITERAL:
-create an ARRAY which holds 5 VALUES of TYPE int
-assign VALUES to each index position.
+create an ARRAY which holds 5 VALUES of TYPE int  --> i :=0; i < 5; i++
+assign VALUES to each index position. --> x[i] = i
 Range over the array and print the values out.
 print out the VALUE and the TYPE
 */

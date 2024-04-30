@@ -26,7 +26,7 @@ func main() {
 
 	fmt.Println("--- accessing keys that don't exist")
 	delete(an, "Georage")      // won't panic
-	fmt.Println(an["Georgey"]) // won't panic
+	fmt.Println(an["Georgey"]) // won't panic but returns value of 0 b/c does not exist
 	fmt.Println("------------------------")
 
 	// for range over a MAP

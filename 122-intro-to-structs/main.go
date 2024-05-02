@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(p1)
 	fmt.Println(p2)
 
-	fmt.Printf("%T \t %#v\n", p1, p1)
+	fmt.Printf("%T \t %#v\n", p1, p1) //print type and about the type
 
-	fmt.Println(p1.first, p1.last, p1.age)
+	fmt.Println(p1.first, p1.last, p1.age) //to access via field names
 }

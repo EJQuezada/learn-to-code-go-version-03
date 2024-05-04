@@ -41,7 +41,7 @@ func main() {
 
 	fmt.Println(v1.electric, v1.make, v1.model)
 	fmt.Println(v2.electric, v2.make, v2.model)
-
+	//following 2 lines are another way to write above code
 	fmt.Println(v1.engine.electric, v1.make, v1.model)
 	fmt.Println(v2.engine.electric, v2.make, v2.model)
 }

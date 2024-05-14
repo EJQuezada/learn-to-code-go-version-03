@@ -9,14 +9,14 @@ type book struct {
 	title string
 }
 
-func (b book) String() string {
+func (b book) String() string { //to implement string interface
 	return fmt.Sprint("The title of the book is ", b.title)
 }
 
 type count int
 
 func (c count) String() string {
-	return fmt.Sprint("This is the number ", strconv.Itoa(int(c)))
+	return fmt.Sprint("This is the number ", strconv.Itoa(int(c))) //string convert to ascii converts to a string
 }
 
 func main() {

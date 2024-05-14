@@ -31,3 +31,5 @@ func main() {
 }
 
 // func (r receiver) identifier(p parameter(s)) (return(s)) { code }
+
+// https://alexedwards.net/blog/interfaces-explained

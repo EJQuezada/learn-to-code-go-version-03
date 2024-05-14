@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+//building to the following:
 // type person struct {
 // 	first string
 // }

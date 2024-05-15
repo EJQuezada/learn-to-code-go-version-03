@@ -40,8 +40,8 @@ func main() {
 		width:  8,
 	}
 
-	fmt.Println(info(c1))
-	fmt.Println(info(s1))
+	fmt.Println(info(c1)) //50.26548245743669
+	fmt.Println(info(s1)) //40
 }
 
 /*

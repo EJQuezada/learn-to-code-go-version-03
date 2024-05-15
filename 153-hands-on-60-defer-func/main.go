@@ -18,5 +18,6 @@ determine the order in which the multiple defer funcs run
 
 */
 
-// deferred functions run in LIFO order
+// deferred functions run in LIFO (Last In First Out) order
 // last in first out LIFO
+// prints 0, 1, 2, 3 order

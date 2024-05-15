@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(paradise("Hawaii"))
+	fmt.Println(paradise("Hawaii")) //My idea of paradise is Hawaii
 }
 
 // paradise returns a string

@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(*y)
 	fmt.Println(*&x)
 
-	*y = 43
+	*y = 43 //this memory address only because *
 	fmt.Println(x)
 	fmt.Println(*y)
 }
